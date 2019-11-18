@@ -2,8 +2,11 @@
 
 int main ()
 {
+	int first_variable; 
+	static int second_ = 5; 
 	while(1)
 	{
-		// main task 
+		first_variable = second_; 
+		
 	}
 }
